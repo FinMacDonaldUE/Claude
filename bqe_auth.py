@@ -13,8 +13,8 @@ CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 REDIRECT_URI = os.getenv("REDIRECT_URI", "http://localhost:5000")
 
-AUTHORIZE_URL = "https://bqecore.com/connect/authorize"
-TOKEN_URL = "https://bqecore.com/connect/token"
+AUTHORIZE_URL = "https://api-identity.bqecore.com/idp/connect/authorize"
+TOKEN_URL = "https://api-identity.bqecore.com/idp/connect/token"
 SCOPE = "readwrite:core offline_access openid"
 AUTH_RESPONSE_FILE = "auth_response.json"
 
